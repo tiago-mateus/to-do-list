@@ -1,0 +1,91 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 30px;
+}
+
+.wrapper  form input{
+    width: 60%;
+    height: 3.375rem;
+    border-radius: 8px;
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    color: var(--gray-300);
+    margin: 0 0.5rem 0 0;
+    padding: 1rem;
+}
+
+
+.wrapper  form input:focus{
+  outline: 2px solid var(--purple-dark);
+}
+
+
+.wrapper form button{
+    width: 5.6rem;
+    height: 3.375rem;
+    border-radius: 8px;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin: 0;
+}
+
+.containerTask{
+    align-self: center;
+    width: 70%;
+    max-height: 30rem;
+    overflow-y: auto;
+}
+
+.containerTask header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+
+.containerTask header p{
+  font-weight: bold;
+}
+.containerTask header p:nth-child(odd){
+    color: var(--blue);
+}
+
+.containerTask header p:nth-child(even){
+    color: var(--purple);
+}
+.containerTask header p span{
+    margin:0 0 0 0.5rem ;
+    color: var(--gray-200);
+    background: var(--gray-400);
+    padding: 2px 9px 2px 9px;
+    border-radius: 100px;
+}
+
+.containerTask main{
+    border-top: 1px dashed var(--gray-400);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.containerTask main p:nth-child(even){
+    font-weight: bold;
+}
+
