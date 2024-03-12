@@ -1,11 +1,10 @@
-.header{
-    background: var(--gray-700);
-    height: 10rem;
+.container {
     display: flex;
-    justify-content: center;
+    flex: 1;
     align-items: center;
-}
-
-.header img {
-    height: 2.5rem;
-}
+    justify-content: center;
+  
+    padding: 3rem 0.625rem;
+    
+    background-color: var(--gray-700);
+  }
