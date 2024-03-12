@@ -1,7 +1,6 @@
 import { Trash } from '@phosphor-icons/react'
 import styles from './Task.module.css'
 import { ITask } from './App'
-import { ChangeEvent, useState } from 'react'
 
 interface Props {
     data: ITask,
